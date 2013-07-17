@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0008213178A34DC008BFBDB /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0008212178A34DC008BFBDB /* GooglePlus.framework */; };
+		B0008215178A34E6008BFBDB /* GoogleOpenSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0008214178A34E6008BFBDB /* GoogleOpenSource.framework */; };
+		B0008217178A3503008BFBDB /* GooglePlus.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0008216178A3503008BFBDB /* GooglePlus.bundle */; };
+		B0008244178A4222008BFBDB /* STGPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0008242178A4222008BFBDB /* STGPPViewController.m */; };
+		B0008245178A4222008BFBDB /* STGPPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0008243178A4222008BFBDB /* STGPPViewController.xib */; };
+		B0008247178A4578008BFBDB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0008246178A4578008BFBDB /* Security.framework */; };
+		B0008249178A4581008BFBDB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0008248178A4581008BFBDB /* SystemConfiguration.framework */; };
+		B003916D17967B7B007EB8D2 /* STWeiboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B003916B17967B7B007EB8D2 /* STWeiboViewController.m */; };
+		B003916E17967B7B007EB8D2 /* STWeiboViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B003916C17967B7B007EB8D2 /* STWeiboViewController.xib */; };
+		B00391B1179682F6007EB8D2 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B00391A7179682F6007EB8D2 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B00391B2179682F6007EB8D2 /* SinaWeibo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B00391A9179682F6007EB8D2 /* SinaWeibo.bundle */; };
+		B00391B3179682F6007EB8D2 /* SinaWeibo.m in Sources */ = {isa = PBXBuildFile; fileRef = B00391AB179682F6007EB8D2 /* SinaWeibo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B00391B4179682F6007EB8D2 /* SinaWeiboAuthorizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B00391AD179682F6007EB8D2 /* SinaWeiboAuthorizeView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B00391B5179682F6007EB8D2 /* SinaWeiboRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B00391B0179682F6007EB8D2 /* SinaWeiboRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B0892A7D17499E3B006B0C79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0892A7C17499E3B006B0C79 /* UIKit.framework */; };
 		B0892A7F17499E3B006B0C79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0892A7E17499E3B006B0C79 /* Foundation.framework */; };
 		B0892A8117499E3B006B0C79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0892A8017499E3B006B0C79 /* CoreGraphics.framework */; };
@@ -19,9 +33,31 @@
 		B0892A9617499E3B006B0C79 /* STViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0892A9517499E3B006B0C79 /* STViewController.m */; };
 		B0892A9917499E3B006B0C79 /* STViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0892A9717499E3B006B0C79 /* STViewController_iPhone.xib */; };
 		B0892A9C17499E3B006B0C79 /* STViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0892A9A17499E3B006B0C79 /* STViewController_iPad.xib */; };
+		B0A19429174AF6E5003E6DFE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0A19428174AF6E5003E6DFE /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0008212178A34DC008BFBDB /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
+		B0008214178A34E6008BFBDB /* GoogleOpenSource.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleOpenSource.framework; sourceTree = "<group>"; };
+		B0008216178A3503008BFBDB /* GooglePlus.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlus.bundle; sourceTree = "<group>"; };
+		B0008241178A4222008BFBDB /* STGPPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STGPPViewController.h; path = ../STGPPViewController.h; sourceTree = "<group>"; };
+		B0008242178A4222008BFBDB /* STGPPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STGPPViewController.m; path = ../STGPPViewController.m; sourceTree = "<group>"; };
+		B0008243178A4222008BFBDB /* STGPPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = STGPPViewController.xib; path = ../STGPPViewController.xib; sourceTree = "<group>"; };
+		B0008246178A4578008BFBDB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B0008248178A4581008BFBDB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B003916A17967B7B007EB8D2 /* STWeiboViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STWeiboViewController.h; sourceTree = "<group>"; };
+		B003916B17967B7B007EB8D2 /* STWeiboViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STWeiboViewController.m; sourceTree = "<group>"; };
+		B003916C17967B7B007EB8D2 /* STWeiboViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STWeiboViewController.xib; sourceTree = "<group>"; };
+		B00391A6179682F6007EB8D2 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		B00391A7179682F6007EB8D2 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		B00391A9179682F6007EB8D2 /* SinaWeibo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SinaWeibo.bundle; sourceTree = "<group>"; };
+		B00391AA179682F6007EB8D2 /* SinaWeibo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeibo.h; sourceTree = "<group>"; };
+		B00391AB179682F6007EB8D2 /* SinaWeibo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeibo.m; sourceTree = "<group>"; };
+		B00391AC179682F6007EB8D2 /* SinaWeiboAuthorizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboAuthorizeView.h; sourceTree = "<group>"; };
+		B00391AD179682F6007EB8D2 /* SinaWeiboAuthorizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboAuthorizeView.m; sourceTree = "<group>"; };
+		B00391AE179682F6007EB8D2 /* SinaWeiboConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboConstants.h; sourceTree = "<group>"; };
+		B00391AF179682F6007EB8D2 /* SinaWeiboRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinaWeiboRequest.h; sourceTree = "<group>"; };
+		B00391B0179682F6007EB8D2 /* SinaWeiboRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinaWeiboRequest.m; sourceTree = "<group>"; };
 		B0892A7917499E3B006B0C79 /* SocialTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0892A7C17499E3B006B0C79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B0892A7E17499E3B006B0C79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +75,7 @@
 		B0892A9517499E3B006B0C79 /* STViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STViewController.m; sourceTree = "<group>"; };
 		B0892A9817499E3B006B0C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STViewController_iPhone.xib; sourceTree = "<group>"; };
 		B0892A9B17499E3B006B0C79 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/STViewController_iPad.xib; sourceTree = "<group>"; };
+		B0A19428174AF6E5003E6DFE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,15 +83,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0008249178A4581008BFBDB /* SystemConfiguration.framework in Frameworks */,
+				B0008247178A4578008BFBDB /* Security.framework in Frameworks */,
+				B0A19429174AF6E5003E6DFE /* Social.framework in Frameworks */,
 				B0892A7D17499E3B006B0C79 /* UIKit.framework in Frameworks */,
 				B0892A7F17499E3B006B0C79 /* Foundation.framework in Frameworks */,
 				B0892A8117499E3B006B0C79 /* CoreGraphics.framework in Frameworks */,
+				B0008213178A34DC008BFBDB /* GooglePlus.framework in Frameworks */,
+				B0008215178A34E6008BFBDB /* GoogleOpenSource.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B00391A4179682F6007EB8D2 /* sinaweibo_ios_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				B00391A5179682F6007EB8D2 /* JSONKit */,
+				B00391A8179682F6007EB8D2 /* SinaWeibo */,
+			);
+			path = sinaweibo_ios_sdk;
+			sourceTree = "<group>";
+		};
+		B00391A5179682F6007EB8D2 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				B00391A6179682F6007EB8D2 /* JSONKit.h */,
+				B00391A7179682F6007EB8D2 /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		B00391A8179682F6007EB8D2 /* SinaWeibo */ = {
+			isa = PBXGroup;
+			children = (
+				B00391A9179682F6007EB8D2 /* SinaWeibo.bundle */,
+				B00391AA179682F6007EB8D2 /* SinaWeibo.h */,
+				B00391AB179682F6007EB8D2 /* SinaWeibo.m */,
+				B00391AC179682F6007EB8D2 /* SinaWeiboAuthorizeView.h */,
+				B00391AD179682F6007EB8D2 /* SinaWeiboAuthorizeView.m */,
+				B00391AE179682F6007EB8D2 /* SinaWeiboConstants.h */,
+				B00391AF179682F6007EB8D2 /* SinaWeiboRequest.h */,
+				B00391B0179682F6007EB8D2 /* SinaWeiboRequest.m */,
+			);
+			path = SinaWeibo;
+			sourceTree = "<group>";
+		};
 		B0892A7017499E3B006B0C79 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +150,12 @@
 		B0892A7B17499E3B006B0C79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0008248178A4581008BFBDB /* SystemConfiguration.framework */,
+				B0008246178A4578008BFBDB /* Security.framework */,
+				B0008216178A3503008BFBDB /* GooglePlus.bundle */,
+				B0008214178A34E6008BFBDB /* GoogleOpenSource.framework */,
+				B0008212178A34DC008BFBDB /* GooglePlus.framework */,
+				B0A19428174AF6E5003E6DFE /* Social.framework */,
 				B0892A7C17499E3B006B0C79 /* UIKit.framework */,
 				B0892A7E17499E3B006B0C79 /* Foundation.framework */,
 				B0892A8017499E3B006B0C79 /* CoreGraphics.framework */,
@@ -85,13 +166,20 @@
 		B0892A8217499E3B006B0C79 /* SocialTest */ = {
 			isa = PBXGroup;
 			children = (
+				B00391A4179682F6007EB8D2 /* sinaweibo_ios_sdk */,
 				B0892A8B17499E3B006B0C79 /* STAppDelegate.h */,
 				B0892A8C17499E3B006B0C79 /* STAppDelegate.m */,
+				B0008241178A4222008BFBDB /* STGPPViewController.h */,
+				B0008242178A4222008BFBDB /* STGPPViewController.m */,
 				B0892A9417499E3B006B0C79 /* STViewController.h */,
 				B0892A9517499E3B006B0C79 /* STViewController.m */,
+				B0008243178A4222008BFBDB /* STGPPViewController.xib */,
 				B0892A9717499E3B006B0C79 /* STViewController_iPhone.xib */,
 				B0892A9A17499E3B006B0C79 /* STViewController_iPad.xib */,
 				B0892A8317499E3B006B0C79 /* Supporting Files */,
+				B003916A17967B7B007EB8D2 /* STWeiboViewController.h */,
+				B003916B17967B7B007EB8D2 /* STWeiboViewController.m */,
+				B003916C17967B7B007EB8D2 /* STWeiboViewController.xib */,
 			);
 			path = SocialTest;
 			sourceTree = "<group>";
@@ -168,6 +256,10 @@
 				B0892A9317499E3B006B0C79 /* Default-568h@2x.png in Resources */,
 				B0892A9917499E3B006B0C79 /* STViewController_iPhone.xib in Resources */,
 				B0892A9C17499E3B006B0C79 /* STViewController_iPad.xib in Resources */,
+				B0008217178A3503008BFBDB /* GooglePlus.bundle in Resources */,
+				B0008245178A4222008BFBDB /* STGPPViewController.xib in Resources */,
+				B003916E17967B7B007EB8D2 /* STWeiboViewController.xib in Resources */,
+				B00391B2179682F6007EB8D2 /* SinaWeibo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +273,12 @@
 				B0892A8917499E3B006B0C79 /* main.m in Sources */,
 				B0892A8D17499E3B006B0C79 /* STAppDelegate.m in Sources */,
 				B0892A9617499E3B006B0C79 /* STViewController.m in Sources */,
+				B0008244178A4222008BFBDB /* STGPPViewController.m in Sources */,
+				B003916D17967B7B007EB8D2 /* STWeiboViewController.m in Sources */,
+				B00391B1179682F6007EB8D2 /* JSONKit.m in Sources */,
+				B00391B3179682F6007EB8D2 /* SinaWeibo.m in Sources */,
+				B00391B4179682F6007EB8D2 /* SinaWeiboAuthorizeView.m in Sources */,
+				B00391B5179682F6007EB8D2 /* SinaWeiboRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +373,14 @@
 		B0892AA017499E3B006B0C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SocialTest/SocialTest-Prefix.pch";
 				INFOPLIST_FILE = "SocialTest/SocialTest-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,9 +389,14 @@
 		B0892AA117499E3B006B0C79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SocialTest/SocialTest-Prefix.pch";
 				INFOPLIST_FILE = "SocialTest/SocialTest-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -313,6 +421,7 @@
 				B0892AA117499E3B006B0C79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Twitter/Twitter.h>
+#import <Social/Social.h>
 
 @interface STViewController : UIViewController
+- (IBAction)tweet:(id)sender;
+- (IBAction)facebook:(id)sender;
+- (IBAction)wb:(id)sender;
+- (IBAction)wbOauth:(id)sender;
+- (IBAction)googleplus:(id)sender;
+
 
 @end
